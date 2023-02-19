@@ -1,0 +1,20 @@
+$blackblue: #42567a;
+$accent-purple: #5d5fef;
+$accent-blue: #3877ee;
+$accent-pink: #ef5da8;
+$bg-color: #f4f5f9;
+
+$border-light: 1px solid rgba(66, 86, 122, 0.1);
+$border-color-light: rgba(66, 86, 122, 0.1);
+
+%main-font {
+  font-family: 'PT Sans', 'Arial', sans-serif;
+  font-weight: 700;
+  color: #42567a;
+}
+
+%extra-font {
+  font-family: 'Bebas Neue', 'Arial', sans-serif;
+  font-weight: 400;
+  color: #3877ee;
+}

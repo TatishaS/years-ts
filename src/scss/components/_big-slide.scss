@@ -1,0 +1,34 @@
+.big-slide {
+  background-color: transparent;
+  &__item-wrapper {
+    padding: 17rem 7.8rem 2.5rem;
+  }
+
+  &__title {
+    max-width: 35rem;
+    font-size: 5.6rem;
+    line-height: 6.7rem;
+    margin-bottom: 9.6rem;
+  }
+  &__years-block {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  &__year {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 20rem;
+    line-height: 16rem;
+    letter-spacing: -0.02em;
+  }
+
+  &__year--from {
+    margin-right: 12rem;
+    color: $accent-purple;
+  }
+
+  &__year--to {
+    color: $accent-pink;
+  }
+}
